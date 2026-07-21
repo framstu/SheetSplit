@@ -46,7 +46,7 @@ resetAllBtn.addEventListener('click', () => {
   fileInput.value = '';
 
   // Optional: show a placeholder message
-  sheetsGrid.innerHTML = '<p>No file loaded.</p>';
+  sheetsGrid.innerHTML = '<p> - </p>';
 });
 
 openFileBtn.addEventListener('click', () => fileInput.click());
