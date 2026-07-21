@@ -15,7 +15,7 @@ Open `index.html` in any modern browser.
 No installation or backend required.
 
 ## Structure
-sheetsplit/
+sheetsplit/  
 ├── index.html  
 ├── styles.css  
 ├── app.js  
