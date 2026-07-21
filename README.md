@@ -20,10 +20,10 @@ sheetsplit/
 ├── styles.css  
 ├── app.js  
 ├── i18n.js  
-├── js/xlsx.full.min.js
-├── translations/en.json
-├── translations/fi.json
-├── translations/se.json
+├── js/xlsx.full.min.js  
+├── translations/en.json  
+├── translations/fi.json  
+├── translations/se.json  
 ├── LICENSE (MIT)  
 ├── NOTICE (Apache 2.0 for SheetJS)  
 └── APACHE-LICENSE-2.0.txt
