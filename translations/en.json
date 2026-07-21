@@ -1,0 +1,11 @@
+{
+  "app_title": "Excel Splitter",
+  "open_file": "Open File",
+  "export_format": "Export Format",
+  "format_xlsx": "Excel",
+  "format_csv": "CSV",
+  "format_json": "JSON",
+  "save_files": "Save Files",
+  "back_to_sheets": "Back to Sheets",
+  "history": "History"
+}

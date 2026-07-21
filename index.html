@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="app_title">SheetSplit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ribbon">
+    <div class="ribbon-group">
+      <button id="open-file-btn" data-i18n="open_file">Open File</button>
+    </div>
+
+    <div class="ribbon-group">
+      <h5>Export format:</h5>
+      <select id="export-format">
+        <option value="xlsx" data-i18n="format_xlsx">Excel</option>
+        <option value="csv" data-i18n="format_csv">CSV</option>
+        <option value="json" data-i18n="format_json">JSON</option>
+      </select>
+      <button id="save-btn" data-i18n="save_files">Save Files</button>
+      <button id="reset-all-btn">Reset</button>
+    </div>
+
+    <div class="language-selector">
+      <button class="lang-btn active" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="se">Svenska</button>
+      <button class="lang-btn" data-lang="fi">Suomi</button>
+    </div>
+
+    <!-- ⭐ NEW TITLE (right aligned) -->
+    <div class="ribbon-title">SheetSplit v1.0</div>
+  </div>
+
+  <div class="main-content">
+    <div id="sheets-grid" class="sheets-grid"></div>
+    <div id="table-view" class="table-view hidden">
+      <div class="table-container">
+        <table id="data-table" class="data-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <button id="back-to-sheets" data-i18n="back_to_sheets">Back to Sheets</button>
+    </div>
+  </div>
+
+  <div class="history-panel">
+    <button id="reset-history-btn">Reset history</button>
+    <br><br>
+    <h3 data-i18n="history">History</h3>
+    <ul id="history-list"></ul>
+  </div>
+
+  <input type="file" id="file-input" accept=".xlsx, .xls" style="display: none;">
+
+  <script src="js/xlsx.full.min.js"></script>
+  <script src="i18n.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

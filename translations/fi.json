@@ -1,0 +1,11 @@
+{
+  "app_title": "Excel-jaaja",
+  "open_file": "Avaa tiedosto",
+  "export_format": "Vientiformaatti",
+  "format_xlsx": "Excel",
+  "format_csv": "CSV",
+  "format_json": "JSON",
+  "save_files": "Tallenna tiedostot",
+  "back_to_sheets": "Palaa taulukoihin",
+  "history": "Historia"
+}

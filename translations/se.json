@@ -1,0 +1,11 @@
+{
+  "app_title": "Excel-delare",
+  "open_file": "Öppna fil",
+  "export_format": "Exportformat",
+  "format_xlsx": "Excel",
+  "format_csv": "CSV",
+  "format_json": "JSON",
+  "save_files": "Spara filer",
+  "back_to_sheets": "Tillbaka till blad",
+  "history": "Historik"
+}
