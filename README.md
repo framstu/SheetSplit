@@ -3,6 +3,11 @@
 SheetSplit is a lightweight browser tool for quickly splitting Excel files into individual sheets and exporting them as XLSX, CSV, or JSON.  
 Born from a small JavaScript “vibecoding” experiment to solve a real need, it grew into a simple, useful utility.
 
+## Why?
+During a project I needed to split a workbook's many sheets into individual files.
+No existing tool did it quickly without installation or uploads, so I built one.
+SheetSplit is written in plain JavaScript, so it also runs in restricted environments where installing software isn't an option.
+
 ## Features
 - Open `.xlsx` / `.xls`
 - Preview sheets
